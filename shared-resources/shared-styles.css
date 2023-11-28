@@ -15,7 +15,6 @@ body{
 }
 
 body > div{
-    border:1px solid;
     padding: 9px 30px;
     width: 1280px;
 }
@@ -49,13 +48,20 @@ table{
     font-weight: bold;
 }
 
-.resizableTable td{
+body > div, .resizableTable td, input[type="button"], input[type="submit"] {
     border:1px solid;
+}
+
+.resizableTable td{
     padding: 4px 6px;
 }
 
 a{
     text-decoration: none;
+}
+
+input[type="button"], input[type="submit"] {
+    font-size:16px;
 }
 
 .tab{
