@@ -1,0 +1,38 @@
+*{
+    color:white;
+}
+
+*::selection{
+    background: white;
+    color:black;
+}
+
+body{
+    background: url(dark-tile.png) center 0;
+    background-attachment: fixed;
+    background-color: gray;
+}
+
+body > div{
+    background:rgba(0, 0, 0, 0.8);
+}
+
+a{
+    color:cyan;
+}
+
+a::selection{
+    background: cyan;
+}
+
+input[type="button"], input[type="submit"] {
+    background:black;
+}
+
+.resizableTable tr:first-child{
+    background: #262626;
+}
+
+.resizableTable tr:first-child ~ tr{
+    background: #1A1A1A;
+}
